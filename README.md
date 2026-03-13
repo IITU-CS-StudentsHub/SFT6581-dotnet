@@ -1,3 +1,6 @@
+# Name: Novikov Maxim
+# Group: IT3-2304
+
 # Task Tracker Microservice
 
 A Midterm Assignment for a "Task Management System" Microservice using ASP.NET Core 8
