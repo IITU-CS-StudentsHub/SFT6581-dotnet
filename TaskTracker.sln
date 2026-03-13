@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.Core", "TaskTracker.Core\TaskTracker.Core.csproj", "{3E475DB1-9957-4146-A28D-D0FACC7ACDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.Web", "TaskTracker.Web\TaskTracker.Web.csproj", "{4E23C132-8DDF-470E-ABFD-EB3429F257D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E475DB1-9957-4146-A28D-D0FACC7ACDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E475DB1-9957-4146-A28D-D0FACC7ACDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E475DB1-9957-4146-A28D-D0FACC7ACDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E475DB1-9957-4146-A28D-D0FACC7ACDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E23C132-8DDF-470E-ABFD-EB3429F257D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E23C132-8DDF-470E-ABFD-EB3429F257D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E23C132-8DDF-470E-ABFD-EB3429F257D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E23C132-8DDF-470E-ABFD-EB3429F257D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
