@@ -7,7 +7,6 @@ A Midterm Assignment for a "Task Management System" Microservice using ASP.NET C
 
 I choose AWS SQS to connect the Task Service with the Notification Service. This is an asynchronous pattern
 
-Why AWS SQS?
 
     1) No Server Management
 				It is a managed service. I do not need to install or maintain any broker servers
@@ -18,7 +17,6 @@ Why AWS SQS?
     4) Independence
 				The Task Service and Notification Service are not connected directly. This makes the system more flexible and easier to update
 
-How it works:
 When a task is completed, the Task Service sends a simple JSON message to the SQS queue. The Notification Service reads this message and sends an email
 
 
